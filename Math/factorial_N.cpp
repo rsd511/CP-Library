@@ -6,7 +6,3 @@ ll factorial(ll n)
 	f(i,2,n) ret *= i;
 	return ret;
 }
-
-
-
-// INSIDE MAIN

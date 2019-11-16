@@ -20,3 +20,5 @@ Library containing code snippets used in Competitive Programming
 - Consecutive counts
 
 - KMP Search
+
+- Range Queries (Segment Tree)

@@ -9,7 +9,3 @@ ll factorial(ll n)
 	f(i,2,n) ret *= i, ret %= MOD;
 	return ret;
 }
-
-
-
-// INSIDE MAIN
