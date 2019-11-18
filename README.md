@@ -22,3 +22,4 @@ Library containing code snippets used in Competitive Programming
 - KMP Search
 
 - Range Queries (Segment Tree)
+- UFDS

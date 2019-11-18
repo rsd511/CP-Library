@@ -1,7 +1,7 @@
 // OUTSIDE MAIN
 
-// Default MOD 1e9 + 7
-#define MOD 1000000007
+// Default MOD 1e9 + 7 in template
+
 // MAX -> Till
 #define MAX 10
 
