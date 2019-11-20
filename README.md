@@ -7,7 +7,9 @@ Library containing code snippets used in Competitive Programming
 - Pascal Triangle
 - Sieve
 - Primes Till N
-- LCM
+- Smallest Prime Factor
+- Prime Factors
+- Prime Factors with Count
 - Modular Inverse
 - A^B % MOD
 - String Math Functions
