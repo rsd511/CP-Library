@@ -1,7 +1,7 @@
 // OUTSIDE MAIN
 
 
-// Calculates till MAX
+// Calculates till MAX ( < 10^7)
 #define MAX 1000000
 
 ll spf[MAX+1];

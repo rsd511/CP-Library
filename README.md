@@ -5,8 +5,6 @@ Library containing code snippets used in Competitive Programming
 ## To Be Added
 
 - Pascal Triangle
-- Sieve
-- Primes Till N
 - Modular Inverse
 - A^B % MOD
 - String Math Functions
