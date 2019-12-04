@@ -5,7 +5,6 @@ Library containing code snippets used in Competitive Programming
 ## To Be Added
 
 - Pascal Triangle
-- Modular Inverse
 - A^B % MOD
 - String Math Functions
 
@@ -18,4 +17,6 @@ Library containing code snippets used in Competitive Programming
 
 - KMP Search
 
-- Range Queries (Segment Tree)
+- Sparse Table
+- Segment Tree
+- Fenwick Tree
