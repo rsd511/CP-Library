@@ -9,7 +9,7 @@ public:
 	vector < vector<ll> > st;
 
 	// Change this function to change initiation
-	ll init(ll val) { return 0; }
+	ll init() { return 0; }
 
 	// Change this function to change behaviour
 	ll compute(ll a, ll b) { return max(a,b); }
@@ -23,7 +23,7 @@ public:
 	}
 
 	ll rq(ll left, ll right) {
-		ll result = init(result);
+		ll result = init();
 		rf(j,k,0) if((1<<j) <= right - left + 1)
 			result = compute(result, st[left][j]), left += (1<<j);
 		return result;
