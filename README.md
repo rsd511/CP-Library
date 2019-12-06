@@ -16,5 +16,3 @@ Library containing code snippets used in Competitive Programming
 - Consecutive counts
 
 - KMP Search
-
-- Fenwick Tree
