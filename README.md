@@ -17,5 +17,4 @@ Library containing code snippets used in Competitive Programming
 
 - KMP Search
 
-- Segment Tree
 - Fenwick Tree
