@@ -5,7 +5,7 @@
 class Dijkstra {
 public:
 
-	ll INF = 1000000000000000000;
+	ll INF = 1000000000;
 	vector <ll> dist;
 	priority_queue < pair<ll,ll> , vector < pair<ll,ll> > , greater < pair<ll,ll> > > pq;
 
@@ -24,7 +24,7 @@ public:
 				}
 			}
 		}
-		f(i,0,n-1) if(dist[i] == 1000000000000000000) dist[i] = -1;
+		f(i,0,n-1) if(dist[i] == 1000000000) dist[i] = -1;
 	}
 
 };
