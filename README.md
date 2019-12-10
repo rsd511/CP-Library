@@ -12,5 +12,3 @@ Library containing code snippets used in Competitive Programming
 - Integer to String
 
 - Consecutive counts
-
-- KMP Search
