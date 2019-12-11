@@ -10,5 +10,3 @@ Library containing code snippets used in Competitive Programming
 - Binary to Decimal
 - String to Integer
 - Integer to String
-
-- Consecutive counts
