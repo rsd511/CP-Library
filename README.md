@@ -6,7 +6,7 @@ Library containing code snippets used in Competitive Programming
 
 - String Math Functions
 
-- Decimal to Binary
-- Binary to Decimal
 - String to Integer
 - Integer to String
+
+- Merge Sort Tree
