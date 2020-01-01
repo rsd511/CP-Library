@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define TCLOOP() int tc; cin>>tc; while(tc--)
-
 #define fa(x,v) for(auto x:v)
 #define f(i,a,b) for(ll i=(ll)a;i<=(ll)b;i++)
 #define rf(i,a,b) for(ll i=(ll)a;i>=(ll)b;i--)
@@ -17,12 +15,21 @@ using namespace std;
 #define sz(v) int(v.size())
 #define MOD 1000000007
 
+void Fast_IO() {
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt","r",stdin);
+	freopen("output.txt","w",stdout);
+	freopen("debug.txt","w",stderr);
+	#endif
+} 
+
 // Code Here
 
 int main()
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    Fast_IO();
     
     return 0;
 }
