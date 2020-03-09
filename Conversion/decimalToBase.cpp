@@ -7,8 +7,7 @@ string decToBase(ll n, ll b)
 	string ret = "";
 	while(n > 0) {
 		ll rem = n % b;
-		if(rem <= 9) ret += (char)(rem+48);
-		else ret += (char)(rem+55);
+		ret += (char)(rem+48);
 		n /= b;
 	}
 	reverse(ret.begin(), ret.end());

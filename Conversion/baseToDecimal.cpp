@@ -9,7 +9,6 @@ ll baseToDec(string s, ll b)
 	f(i,1,n-1) power[i] = power[i-1]*b;
 	f(i,0,n-1) {
 		ll coeff = s[i] - 48;
-		if(coeff > 9) coeff -= 7;
 		ret += (coeff * power[n-1-i]);
 	}
 	return ret;
