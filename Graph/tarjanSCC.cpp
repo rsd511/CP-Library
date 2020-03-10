@@ -29,15 +29,15 @@ public:
 			ll v = adj[u][i];
 			if(dfsNum[v] == -1) dfs(v);
 			if(visited[v]) dfsLow[u] = min(dfsLow[u],dfsLow[v]);
-			if(dfsLow[u] == dfsNum[u]) {
-				vector <ll> new_scc; n_SCC++; 
-				while(1) {
-					ll cc = stk.back(); stk.pop_back();
-					visited[cc] = 0; new_scc.pb(cc);
-					if(u == cc) break;
-				}
-				SCC.pb(new_scc);
+		}
+		if(dfsLow[u] == dfsNum[u]) {
+			vector <ll> new_scc; n_SCC++; 
+			while(1) {
+				ll cc = stk.back(); stk.pop_back();
+				visited[cc] = 0; new_scc.pb(cc);
+				if(u == cc) break;
 			}
+			SCC.pb(new_scc);
 		}
 	}
 
