@@ -1,13 +1,16 @@
 // OUTSIDE MAIN
 
 
-string decToBase(ll n, ll b)
+vector <ll> decToBase(ll n, ll b)
 {
-	if(n == 0) return "0";
-	string ret = "";
+	vector <ll> ret;
+	if(n == 0) {
+		ret.pb(0);
+		return ret;
+	}
 	while(n > 0) {
 		ll rem = n % b;
-		ret += (char)(rem+48);
+		ret.pb(rem);
 		n /= b;
 	}
 	reverse(ret.begin(), ret.end());
