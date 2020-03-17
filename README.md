@@ -6,4 +6,4 @@ Library containing code snippets used in Competitive Programming
 
 - String Math Functions
 
-- SSSP for Unweighted Graphs
+- Segment Tree Modification
