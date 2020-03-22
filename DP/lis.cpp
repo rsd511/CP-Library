@@ -8,7 +8,7 @@ ll LLIS(vector <ll> v)
 		if(sz(liss) == 0) liss.pb(v[i]);
 		else if(v[i] > liss[sz(liss)-1]) liss.pb(v[i]);
 		else if(v[i] == liss[sz(liss)-1]) continue;
-		else liss[upper_bound(liss.begin(), liss.end(), v[i]) - liss.begin()] = v[i];
+		else liss[lower_bound(liss.begin(), liss.end(), v[i]) - liss.begin()] = v[i];
 	}
 	return sz(liss);
 }
@@ -27,7 +27,7 @@ vector <ll> LIS(vector <ll> v, ll n)
 			if(sz(lis) == n) break;
 		}
 		else if(v[i] == lis[sz(lis)-1]) continue;
-		else lis[upper_bound(lis.begin(), lis.end(), v[i]) - lis.begin()] = v[i];
+		else lis[lower_bound(lis.begin(), lis.end(), v[i]) - lis.begin()] = v[i];
 	}
 	return lis;
 }
