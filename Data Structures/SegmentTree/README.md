@@ -19,3 +19,13 @@
  - < Max from L to R, Frequency of Max from L to R >
  - Element Update : a[x] = new_value
 ---
+
+## 3) st3.cpp 
+
+**Name**: GCD & LCM
+
+**Functions**:
+
+ - < GCD from L to R, LCM from L to R >
+ - Element Update : a[x] = new_value
+---
