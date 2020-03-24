@@ -29,3 +29,13 @@
  - < GCD from L to R, LCM from L to R >
  - Element Update : a[x] = new_value
 ---
+
+## 4) st4.cpp 
+
+**Name**: Frequency & postion of fixed target
+
+**Functions**:
+
+ - < frequency of fixed target from L to R, Position of Kth fixed target from L to R >
+ - Element Update : a[x] = new_value
+---
