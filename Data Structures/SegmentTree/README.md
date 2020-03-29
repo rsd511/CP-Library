@@ -51,3 +51,16 @@
  - Position of LowerBound of Passes Value from L to R (Works on unsorted too)
  - Position of UpperBound of Passes Value from L to R (Works on unsorted too)
 ---
+
+## 6) st6.cpp 
+
+**Name**: Max Range, Prefix, Suffix (Non-empty)
+
+**Functions**:
+
+Struct Node:
+ - Sum from L to R
+ - Maximum Prefix Sum from L to R
+ - Maximum Suffix Sum from L to R
+ - Maximum Contiguous Range Sum from L to R
+---
