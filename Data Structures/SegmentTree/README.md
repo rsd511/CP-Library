@@ -39,3 +39,15 @@
  - < frequency of fixed target from L to R, Position of Kth fixed target from L to R >
  - Element Update : a[x] = new_value
 ---
+
+## 5) st5.cpp 
+
+**Name**: LowerBound & UpperBound (Unsorted)
+
+**Functions**:
+
+ - Max from L to R
+ - Element Update : a[x] = new_value
+ - Position of LowerBound of Passes Value from L to R (Works on unsorted too)
+ - Position of UpperBound of Passes Value from L to R (Works on unsorted too)
+---
