@@ -11,18 +11,18 @@ using namespace std;
 #define mp make_pair
 #define ff first
 #define ss second
-#define len(s) int(s.length())
-#define sz(v) int(v.size())
+#define len(s) (ll)int(s.length())
+#define sz(v) (ll)int(v.size())
 #define MOD 1000000007
 
 void Fast_IO() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
-	#ifndef ONLINE_JUDGE
-	freopen("input.txt","r",stdin);
-	freopen("output.txt","w",stdout);
-	freopen("debug.txt","w",stderr);
-	#endif
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    #ifndef ONLINE_JUDGE
+    freopen("input.in","r",stdin);
+    freopen("output.out","w",stdout);
+    freopen("debug.out","w",stderr);
+    #endif
 } 
 
 // Code Here
