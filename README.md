@@ -6,3 +6,4 @@ Library containing code snippets used in Competitive Programming
 
 - String Math Functions
 - Segment Tree Modification
+- Merge Sort Tree
