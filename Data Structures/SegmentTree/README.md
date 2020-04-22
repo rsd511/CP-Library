@@ -74,3 +74,14 @@ Struct Node:
  - Vector Nodes, No point updates
  - Number of elements smaller than passed query value from L to R
 ---
+
+## 8) st8.cpp 
+
+**Name**: Merge Sort Tree 2
+
+**Functions**:
+
+ - Vector Nodes, No point updates
+ - Built on indices after sorting
+ - Index of the K-th smallest element from L to R, K - query value
+---
