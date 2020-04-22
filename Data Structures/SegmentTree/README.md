@@ -48,8 +48,8 @@
 
  - Max from L to R
  - Element Update : a[x] = new_value
- - Position of LowerBound of Passes Value from L to R (Works on unsorted too)
- - Position of UpperBound of Passes Value from L to R (Works on unsorted too)
+ - Position of LowerBound of Passed Value from L to R (Works on unsorted too)
+ - Position of UpperBound of Passed Value from L to R (Works on unsorted too)
 ---
 
 ## 6) st6.cpp 
@@ -58,6 +58,7 @@
 
 **Functions**:
 
+ - Element Update : a[x] = new_value
 Struct Node:
  - Sum from L to R
  - Maximum Prefix Sum from L to R
@@ -77,11 +78,22 @@ Struct Node:
 
 ## 8) st8.cpp 
 
-**Name**: Merge Sort Tree 2
+**Name**: Merge Sort Tree 2 (Pseudo)
 
 **Functions**:
 
  - Vector Nodes, No point updates
  - Built on indices after sorting
  - Index of the K-th smallest element from L to R, K - query value
+---
+
+## 9) st9.cpp 
+
+**Name**: Merge Sort Tree 3
+
+**Functions**:
+
+ - PBDS (Ordered_Set) Nodes
+ - Element Update : a[x] = new_value
+ - Number of elements smaller than passed query value from L to R
 ---

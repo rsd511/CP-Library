@@ -6,7 +6,7 @@
 using namespace __gnu_pbds;
 
 // *oset.find_by_order(k) (0-based)
-// oset.order_of_key(val)
+// oset.order_of_key(val) (0-based)
 // Change datatype below
 typedef tree < ll, null_type, less < ll >,
 rb_tree_tag, tree_order_statistics_node_update > ordered_set;
