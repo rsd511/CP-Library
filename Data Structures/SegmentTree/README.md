@@ -64,3 +64,13 @@ Struct Node:
  - Maximum Suffix Sum from L to R
  - Maximum Contiguous Range Sum from L to R
 ---
+
+## 7) st7.cpp 
+
+**Name**: Merge Sort Tree 1
+
+**Functions**:
+
+ - Vector Nodes, No point updates
+ - Number of elements smaller than passed query value from L to R
+---
