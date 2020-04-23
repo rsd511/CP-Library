@@ -97,3 +97,13 @@ Struct Node:
  - Element Update : a[x] = new_value
  - Number of elements smaller than passed query value from L to R
 ---
+
+## 10) st91.cpp 
+
+**Name**: Lazy Propagation:- add on segment with sum of range
+
+**Functions**:
+
+ - Summation from L to R
+ - Range update : a[L...R] = new_value
+---
