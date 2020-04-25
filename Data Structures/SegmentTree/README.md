@@ -107,3 +107,13 @@ Struct Node:
  - Summation from L to R
  - Range update : a[L...R] = new_value
 ---
+
+## 11) st92.cpp 
+
+**Name**: 2D Segment Tree
+
+**Functions**:
+
+ - Summation from (X1, Y1) to (X2, Y2)
+ - Element update : a[X,Y] = new_value
+---
