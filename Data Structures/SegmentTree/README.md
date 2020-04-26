@@ -128,3 +128,14 @@ Struct Node:
  - Update value of any version's element :- a[pos] += new_val
  - Sum of elements from L to R from any version
 ---
+
+## 12) st93.cpp 
+
+**Name**: Persistent Segment Tree
+
+**Functions**:
+
+ - Built on Index-Compressed array
+ - Preserved N versions from L to R
+ - Query:- Kth smallest number from L to R in O(log(n))
+---
