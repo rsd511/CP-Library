@@ -117,3 +117,14 @@ Struct Node:
  - Summation from (X1, Y1) to (X2, Y2)
  - Element update : a[X,Y] = new_value
 ---
+
+## 12) st93.cpp 
+
+**Name**: Persistent Segment Tree
+
+**Functions**:
+
+ - Preserves all roots of updated Segment Tree
+ - Update value of any version's element :- a[pos] += new_val
+ - Sum of elements from L to R from any version
+---
