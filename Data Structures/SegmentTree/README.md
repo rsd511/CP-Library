@@ -129,9 +129,9 @@ Struct Node:
  - Sum of elements from L to R from any version
 ---
 
-## 12) st93.cpp 
+## 13) st94.cpp 
 
-**Name**: Persistent Segment Tree
+**Name**: Persistent Segment Tree 2
 
 **Functions**:
 
