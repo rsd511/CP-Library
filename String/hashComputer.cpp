@@ -1,3 +1,6 @@
+// OUTSIDE MAIN
+
+
 ll compute_hash(string& s) {
     ll p = 31;
     ll m = 1e9 + 9;
