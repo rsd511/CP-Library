@@ -9,7 +9,7 @@ public:
 	vector < vector<ll> > st;
 
 	// Change this function to change initiation
-	ll init() { return 0; }
+	ll init() { return -1000000000; }
 
 	// Change this function to change behaviour
 	ll compute(ll a, ll b) { return max(a,b); }
