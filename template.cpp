@@ -18,13 +18,9 @@ using namespace std;
 void Fast_IO() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    #ifdef rsd511
+    #ifndef ONLINE_JUDGE
     freopen("input.in","r",stdin);
     freopen("output.out","w",stdout);
-    #endif
-    #ifndef rsd511
-    #define trace(...) {}
-    #define cotra(...) {}
     #endif
 } 
 
